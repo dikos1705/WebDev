@@ -4,6 +4,8 @@ const checkList = document.getElementById('checked-list');
 
 eventListeners();
 
+
+
 function eventListeners() {
   document.querySelector('#form').addEventListener('submit', newTask);
 
